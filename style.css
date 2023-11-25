@@ -1,0 +1,493 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* share styles  */
+.pinkBg {
+  background: rgba(229, 84, 115, 0.1);
+}
+
+.btnPrimary {
+  border-radius: 0.3125rem;
+  background: #e55473;
+  border: 0;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.headingStyle {
+  color: #272727;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.spanColor {
+  color: #e55473;
+}
+
+/* main css starts  */
+
+/* header section starts  */
+.headerSection {
+  margin-bottom: 60px;
+}
+
+.headerSectionWrapper {
+  display: flex;
+  justify-content: space-evenly;
+  width: 85%;
+  margin: auto;
+}
+
+.headerLeft {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.headerLeftWrapper {
+  width: 85%;
+  margin: auto;
+}
+
+.headerHeading {
+  font-size: 22px;
+
+  margin-bottom: 10px;
+}
+
+.headerDescription {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 14px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.headBtn {
+  padding: 11px 20px;
+}
+
+.headerRight {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.headRightImg {
+  width: 400px;
+  height: 460px;
+  padding-top: 20px;
+  margin-right: 50px;
+}
+
+.headRightImg img {
+  height: 100%;
+  width: 100%;
+}
+
+/* header section ends  */
+
+/* featured flower starts  */
+.featuredFlower {
+  margin-bottom: 60px;
+}
+
+.featuredFlowerWrapper {
+  width: 84%;
+  margin: auto;
+}
+
+.featuredTopeHeading {
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.featuredTopPara {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 45%;
+  margin: auto;
+  margin-bottom: 34px;
+}
+
+.featuredCard {
+  display: flex;
+  justify-content: space-between;
+}
+
+.commonCard {
+  width: 330px;
+  height: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.cardBottom {
+  color: #272727;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 700;
+  margin-top: 10px;
+  text-decoration-line: underline;
+}
+
+.card1 {
+  background: rgba(167, 33, 98, 0.15);
+}
+.card2 {
+  background: rgba(5, 151, 160, 0.15);
+}
+.card3 {
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.cardWrapper {
+  width: 50%;
+  height: 84%;
+}
+
+.cardWrapper img {
+  height: 100%;
+  width: 100%;
+}
+
+/* featured flower ends */
+
+/* icon section starts  */
+
+.iconSection {
+  margin-bottom: 60px;
+}
+
+.iconSectionWrapper {
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  width: 85%;
+  margin: auto;
+}
+
+.iconSectionContent {
+  width: 85%;
+  margin: auto;
+  padding: 40px 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.iconcard {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconCardTop {
+  margin-bottom: 6px;
+  width: 68px;
+  height: 68px;
+}
+
+.iconCardTop img {
+  width: 100%;
+  height: 100%;
+}
+
+.iconCardBottom {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 15px;
+}
+
+/* icon section ends  */
+
+/* hotdeal section starts  */
+.hotDealSection {
+  margin-bottom: 60px;
+}
+
+.hotDealWrapper {
+  width: 85%;
+  margin: auto;
+  padding: 55px 30px;
+  display: flex;
+  align-items: center;
+}
+
+.hotDealLeft {
+  width: 60%;
+}
+
+.dealLeftWrapper {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dealLeftHeader {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.hotDealPara {
+  width: 82%;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 16px;
+}
+
+.hotDealButton {
+  padding: 14px 30px;
+}
+
+.hotDealRight {
+  width: 40%;
+}
+
+.HotDealRightImage {
+  display: flex;
+  justify-content: center;
+}
+
+/* hotdeal section ends  */
+
+/* instagram section starts  */
+
+.instagramSection {
+  margin-bottom: 60px;
+}
+
+.instagramWrapper {
+  width: 85%;
+  margin: auto;
+}
+
+.instagramTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.instaTopHeading {
+  color: #272727;
+  margin-bottom: 12px;
+  font-size: 17px;
+}
+
+.instaTopPara {
+  color: rgba(39, 39, 39, 0.6);
+  width: 50%;
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 22px;
+}
+
+.instagramCard {
+  display: flex;
+  justify-content: space-between;
+}
+
+.instaCardParent {
+  width: 280px;
+  height: 340px;
+  cursor: pointer;
+}
+
+.instaCardWrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.instaCardWrapper img {
+  width: 100%;
+  height: 100%;
+}
+
+/* instagram section ends  */
+
+/* latest deal starts  */
+
+.latestDeal {
+  margin-bottom: 60px;
+}
+
+.latestDealWrapper {
+  width: 85%;
+  margin: auto;
+  background-image: url("images/Rectangle 9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.dealHeading {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.dealParagraph {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 26px;
+}
+
+.dealInputField {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 46%;
+}
+
+.inputSection {
+  border-radius: 8px;
+  background: #fff;
+  width: 78%;
+}
+
+.emailInput {
+  padding: 14px 28px;
+  color: #757575;
+  border-radius: 5px;
+  background: #fff;
+  border: 0;
+  width: 100%;
+}
+
+.dealBTN {
+  padding: 13px 22px;
+}
+/* latest deal ends  */
+
+/* footer section starts  */
+.footerSection {
+  background: #111010;
+}
+
+.footerWrapper {
+  width: 85%;
+  margin: auto;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerHeading {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.footerPara {
+  width: 45%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 28px;
+}
+
+.footerCopyright {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 12px;
+}
+
+/* footer section ends */
+
+/* bonus container starts  */
+.bonusContainer {
+  margin-bottom: 60px;
+}
+
+.bonusWrapper {
+  width: 86%;
+  margin: auto;
+}
+
+.bonusWrapperTop {
+  text-align: center;
+  margin-bottom: 16px;
+  padding: 10px 0;
+}
+
+.bonusCardParent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardSection {
+  width: 24%;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 20px 18px;
+  cursor: pointer;
+}
+
+.BonusCardTopIcon {
+  width: 66%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+  font-size: 24px;
+}
+
+.bonusCardPara {
+  color: rgba(39, 39, 39, 0.6);
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.bonusUser {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bonusUserImg {
+  width: 50px;
+  height: 50px;
+}
+
+.bonusUserImg img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.bonusCustomerName {
+  font-weight: 800;
+}
+
+.bonusUserSatisfiction {
+  font-size: 14px;
+  color: rgba(39, 39, 39, 0.6);
+}
+
+/* bonus container ends  */
